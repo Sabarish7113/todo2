@@ -1,0 +1,134 @@
+body
+{
+    background-color: rgb(58, 182, 58);
+}
+.column {
+    width: 33%;
+    padding: 0 15px;
+  }
+  
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+@media screen and (max-width: 600px) {
+.column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+}
+}
+  .card {
+    padding: 50px;
+    margin-top: 100px;
+    width: 450px;
+    height: 380px;
+    background:white;
+    border-radius: 30px;
+    opacity: 1;
+    margin-bottom: 20px;
+  }
+  .card:hover
+  {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  .card-title {
+    text-align: center;
+    font: normal normal bold 30px/84px Segoe UI;
+    letter-spacing: 0px;
+    color: #4a4949;
+    opacity: 1;
+  }
+  .card-text {
+    text-align: center;
+    font: normal normal bold 24px/32px Segoe UI;
+    letter-spacing: 0px;
+    color: #4a4949;
+    opacity: 1;
+    padding: 5px;
+  }
+  .p
+  {
+    margin-bottom: 40px
+  }
+  input
+  {
+    height:30px ;
+    width:30px ;
+    border-color: white;
+  }
+  label
+  {
+    font-size: large;
+  }
+  .br
+  {
+    border: none;
+  }
+  .shade
+  {
+    height: 2rem;
+    width:25rem;
+    background-color: gray;
+  }
+  .li
+  {
+    text-decoration: line-through;
+  }
+input
+{
+    margin: 0px;
+    padding: 0px;
+    height: 2rem;
+    width: 15rem;
+    font-size: larger;
+}
+button
+{
+    background-color:rgb(66, 66, 248);
+    margin-bottom: -10px;
+    margin-left: 0px;
+    border-radius: 40px;
+    padding: 0px;
+    height: 2rem;
+    width: 5rem;
+}
+ol{
+    margin-top: 50px;
+}
+li{
+    margin-top: 20px;
+}
+.bu1
+{
+    height: 2rem;
+    width: 10rem;
+    background-color: rgb(66, 66, 248);
+    color: white;
+    border-radius: 40px;
+}
+.bu2
+{
+    height: 2rem;
+    width: 8rem;
+    background-color: rgb(82, 31, 31);
+    color: white;
+    border-radius: 40px;
+}
+.bu3{
+    height: 2rem;
+    width: 7rem;
+    background-color: rgb(69, 210, 69);
+    color: white;
+    border-radius: 40px;
+}
+  
+  
